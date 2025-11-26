@@ -48,11 +48,11 @@ class ResCompany(models.Model):
         a[tabindex],
         .btn-link,
         .o_external_button {
-          color: %(color_link_text)s !important;
+          color: %(color_link_text)s;
         }
         a:hover,
         .btn-link:hover {
-          color: %(color_link_text_hover)s !important;
+          color: %(color_link_text_hover)s;
         }
         .btn-primary:not(.disabled),
         .ui-autocomplete .ui-menu-item > a.ui-state-active {
@@ -83,7 +83,7 @@ class ResCompany(models.Model):
           color: %(color_link_text)s !important;
         }
         .o_required_modifier.o_input, .o_required_modifier .o_input {
-          background-color: lighten(%(color_button_bg)s, 10%%) !important;
+          background-color: D0D3FD;
         }
     """
 
